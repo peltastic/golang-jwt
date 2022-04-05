@@ -3,13 +3,17 @@ module github.com/peltastic/golang-jwt
 go 1.18
 
 require (
-	github.com/dgrijalva/jwt-go/v4 v4.0.0-preview1
+	// github.com/dgrijalva/jwt-go/v4 v4.0.0-preview1
 	github.com/gofiber/fiber/v2 v2.31.0
 	github.com/lib/pq v1.10.4
 	golang.org/x/crypto v0.0.0-20220331220935-ae2d96664a29
 	gorm.io/driver/postgres v1.3.1
 	gorm.io/gorm v1.23.4
 )
+
+// require github.com/dgrijalva/jwt-go/v4 v4.0.0-preview1
+
+require github.com/golang-jwt/jwt/v4 v4.4.1
 
 require (
 	github.com/andybalholm/brotli v1.0.4 // indirect
